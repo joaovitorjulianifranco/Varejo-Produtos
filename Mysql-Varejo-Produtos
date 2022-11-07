@@ -57,3 +57,5 @@ select Nome_Produto, Preço, Desconto, format(Preço/2, 1) from produtos where I
 select Nome_Produto, Preço, Desconto, 1*Preço-10 from produtos where Id = '1';
 
 select Nome_Produto, Preço, Desconto, 12*(Preço-10) from produtos;
+
+delete from produtos where Id = '1';
